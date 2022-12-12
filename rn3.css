@@ -1,0 +1,100 @@
+h1, h2 {
+    display: inline-block;
+    width: min-content;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: top;
+}
+h1 {
+     color: rgb(194, 84, 161);
+     font-size: 2rem;
+     font-family: fantasy;
+}
+h2 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+}
+.wrapper {
+    height: calc(100vh - 100px);
+    padding: 100px 0 100px 100px;
+    background: -webkit-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+            -webkit-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+            -webkit-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+            -webkit-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+            -webkit-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+            -webkit-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background: -moz-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+            -moz-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+            -moz-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+            -moz-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+            -moz-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+            -moz-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+            linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+            linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+            linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+            linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+            linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-size: 20px 20px;
+background-color: #131313;
+}
+.small {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+}
+.big {
+    width: 210px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.next {
+    margin-right: 0;
+}
+main {
+    height: 590px;
+    font-size: 0;
+}
+.group {
+    display:inline-flex;
+    vertical-align:top;
+    margin-right: 40px;
+}
+.column {
+    display: inline-block;
+    height: 540px;
+    width: 210px;
+    margin-right: 30px;
+}
+.group_1 *:not(.column) {
+    background: #f06;
+}
+.group_3 *:not(.column) {
+    background: #fc0;
+}
+.group_2 *:not(.column) {
+    background: rgb(255, 0, 157);
+}
+.group_4 *:not(.column) {
+    background:aquamarine;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #a1458d;
+}
+header {
+    font-size: 0;
+    margin: 0 50px 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
